@@ -6,3 +6,5 @@ a {
 .jumbotron .h1, .jumbotron h1 {font-size:36px;}
 .badge {float:right;}
 .input-group {margin-top:15px;}
+input {margin-top:15px;}
+button {margin-top:15px;}
