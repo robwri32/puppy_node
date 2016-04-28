@@ -9,3 +9,4 @@ a {
 input {margin-top:15px;}
 button {margin-top:15px;}
 .thumbnail>img {width:100%;}
+.hp_leaderboard_item {border-bottom:1px solid #cccccc; padding-bottom:5px; margin-bottom:10px;}

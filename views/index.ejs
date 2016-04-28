@@ -26,14 +26,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Brand</a>
+          <a class="navbar-brand" href="/">Pup Contest</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="profile.html">Profile</a></li>
+            <li><a href="/view_puppies">Puppies <span class="sr-only">(current)</span></a></li>
+            <li><a href="/add_puppy">Add Puppy</a></li>
+            <li><a href="/add_user">Add User</a></li>
 
           </ul>
 
@@ -68,7 +69,12 @@
             <h3 class="panel-title">Leader Board by Likes</h3>
           </div>
           <div class="panel-body">
-            <a href="#">Panel content</a><span class="badge">32</span>
+
+              <% for(var i=0; i<puppies.length; i++) {%>
+
+                <div class="hp_leaderboard_item">  <a href="#"><%= puppies[i].puppy_name %></a><span class="badge"><%= puppies[i].likes %></span></div>
+                <% } %>
+
           </div>
         </div>
       </div>
@@ -80,7 +86,10 @@
             <h3 class="panel-title">Head to Head Wins</h3>
           </div>
           <div class="panel-body">
-            <a href="#">Panel content</a><span class="badge">32</span>
+            <% for(var i=0; i<puppies.length; i++) {%>
+
+              <div class="hp_leaderboard_item">  <a href="#"><%= puppies[i].puppy_name %></a><span class="badge"><%= puppies[i].heads_up_wins %></span></div>
+              <% } %>
           </div>
         </div>
       </div>
