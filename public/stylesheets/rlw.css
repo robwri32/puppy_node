@@ -8,3 +8,4 @@ a {
 .input-group {margin-top:15px;}
 input {margin-top:15px;}
 button {margin-top:15px;}
+.thumbnail>img {width:100%;}
