@@ -1,0 +1,11 @@
+username,puppy_name,photo_url,likes,heads_up_wins,owner_first_name,owner_last_name
+robwri32,Bentlee,/assets/images/puppies/1.jpg,360,966,Robert,Wright
+test_user1,Rascal,/assets/images/puppies/2.jpg,597,404,Jane,Doe
+test_user2,Roxy,/assets/images/puppies/3.jpg,782,768,John,Doe
+test_user3,Bear,/assets/images/puppies/4.jpg,717,240,Jane,Doe
+test_user4,C-Bass,/assets/images/puppies/5.jpg,646,651,John,Doe
+test_user5,Dexter,/assets/images/puppies/6.jpg,771,616,Jane,Doe
+test_user6,Chipper,/assets/images/puppies/7.jpg,453,459,John,Doe
+test_user7,Gatis,/assets/images/puppies/8.jpg,308,941,Jane,Doe
+test_user8,Rex,/assets/images/puppies/9.jpg,362,658,Jane,Doe
+test_user9,Chopper,/assets/images/puppies/10.jpg,183,466,Jane,Doe
